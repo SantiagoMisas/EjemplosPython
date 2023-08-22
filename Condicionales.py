@@ -23,4 +23,4 @@ elif metrosCubicos>400:
     print(f"Nivel superior {metrosCubicos} metros, nivel alto, inicie plan de evacuacion")
 
 else:
-    print(f"")
+    print(f" Nivel no aceptado revisar los datos")
