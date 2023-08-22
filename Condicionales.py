@@ -1,13 +1,13 @@
-
-edadUsuario=int(input("Digite su edad: "))
-
-if edadUsuario>=18:
-    print("Usted es mayor de edad")
-else:
-    print("Usted es meyor de edad")
-    print("No puedes entrar al lugar")
-
-print("Continua el programa")
+#
+# edadUsuario=int(input("Digite su edad: "))
+#
+# if edadUsuario>=18:
+#     print("Usted es mayor de edad")
+# else:
+#     print("Usted es meyor de edad")
+#     print("No puedes entrar al lugar")
+#
+# print("Continua el programa")
 
 #Evaluando multiples condiciones
 
