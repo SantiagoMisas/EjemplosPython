@@ -30,4 +30,5 @@ productos=[productoTerminado1, productoTerminado2]
     print(contador)'''
 
 for producto in productos:
-    print(producto)
+    for puntoVenta in producto["puntosVenta"]:
+        print(puntoVenta)
