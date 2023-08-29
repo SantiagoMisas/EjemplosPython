@@ -1,4 +1,5 @@
 
-:
-
-Ejemplo.py,2\8\28b1e44b0753ee95617bf4fea8abe4809b2d4901
+9
+	Ciclos.py,7/4/742b412270a9bfd97e8906cce538ee8a41fd9808
+@
+Condicionales.py,4/2/42956d03881587c9141abbdbdb136c86834e6baa
