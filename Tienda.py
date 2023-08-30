@@ -39,14 +39,38 @@ while(opcion!=6):
             print(f"fechaEntregaBodega: {productoSeleccionado['fechaEntregaBodega']}")
 
     elif opcion==3:
-        pass
+        buscar=input("Digita el nombre del producto a buscar: ")
+        productoBuscado=False
+        for producto in productos:
+            if buscar==producto['nombre']:
+                print (f" Producto encontrado: {producto['nombre']}")
+                productoBuscado = True
+                break
+            else:
+                print ("producto no encontrado")
+
     elif opcion==4:
-        pass
+        buscar=input("Digita el nombre del producto para editar: ")
+        for producto in productos:
+            if buscar == producto['nombre']:
+                print(f"Editando producto: {producto['nombre']}")
+                producto["precio"] = float(input("Digita el nuevo precio del producto: "))
+                producto["stock"] = int(input("Digita el nuevo stock del producto: "))
+                producto["fechaEntregaBodega"] = input("Digita la nueva fecha del producto: ")
+                print("Producto editado exitosamente")
+                break
+        else:
+            print("Producto no encontrado")
     elif opcion==5:
-        pass
+        buscar = input("Digita el nombre del producto a retirar: ")
+        for producto in productos:
+            if buscar == producto['nombre']:
+                productos.remove(producto)
+                print(f"Producto {producto['nombre']} retirado exitosamente")
+                break
+        else:
+            print("Producto no encontrado")
     elif opcion==6:
         pass
     else:
         print ("Opcion Invalida, vuelva a intentarlo")
-
-#Tarea hacer el metodo de buscar y el metodo de editar para el producto de la lista productos
