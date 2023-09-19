@@ -22,7 +22,7 @@ def agregar_banda():
     pago_input = input("Ingresa el pago para la banda: ")
     
     # Solicita al usuario que ingrese "True" o "False" para el estado de presentación
-    estado_presentacion_input = input("¿La banda está presentada? (True/False): ").strip().lower()
+    estado_presentacion_input = input("Cual es el estado de la presentacion de la banda (True/False): ").strip().lower()
     if estado_presentacion_input == "true":
         banda["estadoPresentacion"] = True
     elif estado_presentacion_input == "false":
@@ -61,7 +61,7 @@ def buscar_banda():
             bandaEncontrada = True
             break
     if not bandaEncontrada:
-        print("\nBanda no encontrada.")
+        print("\nNo se encontro la banda")
 
 def editar_banda():
     buscar = input("\nIngresa el nombre de la banda a editar: ")
@@ -100,6 +100,6 @@ while opcion != 6:
     elif opcion == 5:
         eliminar_banda()
     elif opcion == 6:
-        print("\nSaliendo del programa...")
+        print("\nSaliendo del Menu")
     else:
         print("\nOpción no válida. Ingresa un número del 1 al 6.")
