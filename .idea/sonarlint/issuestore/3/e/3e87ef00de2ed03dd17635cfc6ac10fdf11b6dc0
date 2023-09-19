@@ -1,0 +1,6 @@
+
+jpython:S1542"RRename function "impTemporada" to match the regular expression ^[a-z_][a-z0-9_]*$.(„îíŒ
+vpython:S1542"YRename function "resultadoIntervalos" to match the regular expression ^[a-z_][a-z0-9_]*$.(éÃøøÿÿÿÿ
+tpython:S1542$"WRename function "calcularTemporada" to match the regular expression ^[a-z_][a-z0-9_]*$.(³×Ø•úÿÿÿÿ
+dpython:S15423"MRename function "impEdad" to match the regular expression ^[a-z_][a-z0-9_]*$.(üş´J
+npython:S15426"QRename function "etapaDeVida" to match the regular expression ^[a-z_][a-z0-9_]*$.(Ò¤ßıÿÿÿÿ

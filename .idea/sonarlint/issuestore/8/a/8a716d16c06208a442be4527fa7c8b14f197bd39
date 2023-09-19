@@ -1,0 +1,10 @@
+
+vpython:S117"XRename this parameter "horasTotales" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÕŒ–è8‘ùùË¨1
+mpython:S1542"NRename function "horaBase" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÕŒ–è8‘ùùË¨1
+}python:S117"_Rename this parameter "porcentajeRetencion" to match the regular expression ^[_a-z][a-z0-9_]*$.(“ˆÂì8‘ùùË¨1
+ƒpython:S117"eRename this parameter "porcentajeSeguridadSocial" to match the regular expression ^[_a-z][a-z0-9_]*$.(“ˆÂì8’ùùË¨1
+tpython:S1542"URename function "retencionSeguro" to match the regular expression ^[a-z_][a-z0-9_]*$.(“ˆÂì8’ùùË¨1
+[python:S1172"7Remove the unused function parameter "cantidadSalario".(é¡÷Ğúÿÿÿÿ8’ùùË¨1
+~python:S117"[Rename this parameter "cantidadSalario" to match the regular expression ^[_a-z][a-z0-9_]*$.(é¡÷Ğúÿÿÿÿ8’ùùË¨1
+ypython:S1542"URename function "calcularSalario" to match the regular expression ^[a-z_][a-z0-9_]*$.(é¡÷Ğúÿÿÿÿ8’ùùË¨1
+apython:S930!"CAdd 2 missing arguments; 'horaBase' expects 2 positional arguments.(×ÛÍ¯8’ùùË¨1
